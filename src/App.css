@@ -1,0 +1,144 @@
+body {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  text-align: center;
+  color: #ffffff;
+}
+
+.welcome-message {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.login-button {
+  background-color: #ff8000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-button:hover {
+  background-color: #ff9a3b;
+  transform: scale(1.05);
+}
+
+.login-button:active {
+  background-color: #e67300;
+  transform: scale(1);
+}
+/* connected.css */
+body {
+  background-color: #000; /* Full black background */
+  color: #fff; /* White text for high contrast */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full height for centering */
+}
+
+.connected-container {
+  background-color: #1e1e1e; /* Dark grey container background */
+  color: #ffffff; /* White text for contrast */
+  padding: 30px;
+  border-radius: 15px; /* Smooth rounded corners */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+  max-width: 600px;
+  text-align: center;
+}
+
+.connected-header {
+  font-size: 36px; /* Larger text for header */
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #ff8000; /* Bright orange header */
+}
+
+.connected-account {
+  font-size: 18px; /* Readable text size */
+  margin: 10px 0;
+  color: #ffffff; /* White text for details */
+}
+
+input[type="number"] {
+  background-color: #333; /* Dark grey input field */
+  color: #ffffff; /* White text */
+  border: 1px solid #555; /* Subtle border */
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  margin: 15px 0;
+}
+
+.login-button {
+  background-color: #ff8000; /* Bright orange button */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-button:hover {
+  background-color: #ff9a3b; /* Lighter orange on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.login-button:active {
+  background-color: #e67300; /* Darker orange when clicked */
+  transform: scale(1); /* Reset zoom effect */
+}
+
+.candidates-table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+  background-color: #1e1e1e; /* Dark grey table background */
+  color: #ffffff; /* White text */
+  border: 1px solid #444; /* Subtle border */
+}
+
+.candidates-table th,
+.candidates-table td {
+  border: 1px solid #555; /* Light grey borders for cells */
+  padding: 10px;
+  text-align: left;
+}
+
+.candidates-table th {
+  background-color: #333; /* Darker grey for headers */
+  color: #ff8000; /* Orange text for headers */
+}
+
+.candidates-table tr:nth-child(even) {
+  background-color: #292929; /* Slightly lighter grey for even rows */
+}
+
+.candidates-table tr:hover {
+  background-color: #444; /* Highlight row on hover */
+}
